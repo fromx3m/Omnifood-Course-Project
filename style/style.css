@@ -36,7 +36,7 @@ Default: 1
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -68,7 +68,7 @@ html {
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
-  font-weight: 700;
+  font-weight: 600;
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
@@ -84,11 +84,12 @@ html {
 .btn:visited {
   display: inline-block;
   font-size: 2rem;
+  font-weight: 500;
   padding: 1.6rem 3.2rem;
   text-decoration: none;
   border-radius: 10px;
-
-  transition: all 0.6s;
+  /* Put the transition on the original state */
+  transition: all 0.8s;
 }
 
 .btn-primary:link,
@@ -118,4 +119,41 @@ html {
 
 .hero-img {
   width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-faces {
+  display: flex;
+}
+
+.delivered-faces img {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-right: -1.6rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-faces img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
