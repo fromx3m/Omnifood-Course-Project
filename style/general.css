@@ -82,6 +82,9 @@ html {
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
+}
+
+.text-aligned {
   text-align: center;
 }
 
@@ -93,7 +96,6 @@ html {
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
-  text-align: center;
 }
 
 .container {
