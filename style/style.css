@@ -209,12 +209,6 @@
 /*******************************/
 /* MEALS SECTION */
 /*******************************/
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
 
 .section-meals {
   padding: 9.6rem 0;
@@ -298,19 +292,6 @@
   gap: 1.6rem;
 }
 
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
 .diet-heading {
   font-size: 3rem;
   line-height: 1.2;
@@ -386,4 +367,26 @@
 
 .section-pricing {
   padding: 9.6rem 0;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+}
+.plan-price {
+  font-size: 7.4rem;
+  font-weight: 600;
+  color: #333;
+}
+.plan-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
